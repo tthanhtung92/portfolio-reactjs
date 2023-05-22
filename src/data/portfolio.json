@@ -1,0 +1,89 @@
+{
+  "name": "Thanh Tung",
+  "headerTaglineOne": "Hello 👋",
+  "headerTaglineTwo": "I'm Thanh Tung",
+  "headerTaglineThree": "Front-End Developer",
+  "headerTaglineFour": "from Ho Chi Minh City",
+  "showBlog": false,
+  "darkMode": true,
+  "showResume": true,
+  "socials": [
+    { "id": "1", "title": "Github", "link": "https://github.com/tthanhtung92" },
+    {
+      "id": "1a000dca-f52c-4d60-956f-63901bfb8665",
+      "title": "Facebook",
+      "link": "https://www.facebook.com/tthanhtung92/"
+    },
+    {
+      "id": "947bd896-d87f-4268-a21d-d3956e7435b8",
+      "title": "Linkedln",
+      "link": "https://www.linkedin.com/in/tthanhtung92/"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Bookly",
+      "description": "Online Book Store",
+      "imageSrc": "https://images.unsplash.com/photo-1463320726281-696a485928c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "url": "https://github.com/tthanhtung92/book-store-management"
+    },
+    {
+      "id": "ed52bba1-a5d9-4040-8001-a5e751f4fc1a",
+      "title": "Portfolio",
+      "description": "About, Projects, Contact and Resume",
+      "imageSrc": "https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
+      "url": "https://portfolio-me-seven.vercel.app/"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "UI/UX",
+      "description": "UI/UX skills help me create beautiful and eye-catching websites, through which the user experience will also become better."
+    },
+    {
+      "id": "3",
+      "title": "Front-End Knowledge",
+      "description": "Using knowledge of programming to code user-side applications, including visual elements, overall layout of websites or web applications. Collaborate with back-end developers and web designers to improve usability and build solutions for users and customers."
+    }
+  ],
+  "aboutpara": "I am a Front-end Developer with 6 months experience at FPT University in designing and building up commercial and personal websites for users. I passionate about learning and development with a desire to apply skills on a larger development team at business. Eager to tackle more complex problems and continue to find ways to maximize user experience.",
+  "resume": {
+    "tagline": "👋  I'm a software engineer.",
+    "description": "     I am a Front-end Developer with 6 months experience at FPT University in designing and building up commercial and personal websites for users. I passionate about learning and development with a desire to apply skills on a larger development team at business. Eager to tackle more complex problems and continue to find ways to maximize user experience.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "Oct 2022 - Dec 2022",
+        "type": "Front-End Dev, Leader",
+        "position": "Bookly - Online Book Store",
+        "bullets": "Find and buy their favorite books in the most easy way., Entire Customer UI designed with Figma., Using ReactJS framework., Online payment with Stripe., Authentication with Firebase and Restful API., Manage plan and timeline."
+      },
+      {
+        "id": "9bb738ce-244f-4bbc-ab07-aa3713b5b709",
+        "dates": "Jan 2023 - Feb 2023",
+        "type": "Personal",
+        "position": "Portfolio",
+        "bullets": "Using ReactJS and TailwindCSS.,  About self and personal information."
+      }
+    ],
+    "education": {
+      "universityName": "FPT University",
+      "universityDate": "2018-2023",
+      "universityPara": "Software Engineering"
+    },
+    "languages": ["Javascript", "Typescript", "HTML", "CSS"],
+    "frameworks": ["ReactJS"],
+    "others": ["Figma", "Git", "Redux Toolkit", "MUI"]
+  },
+  "experiences": [
+    {
+      "id": "1",
+      "dates": "March 2022 - Present",
+      "type": "Anytime",
+      "position": "Frontend Engineer at FPT University",
+      "bullets": "Design UI/UX, Working with React, Manage team project (deploy and timeline)"
+    }
+  ]
+}
