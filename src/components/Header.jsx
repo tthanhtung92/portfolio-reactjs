@@ -87,8 +87,8 @@ const Header = ({
         </h1>
         {!isResume ? (
           <div className="flex">
-            <Button onClick={handleWorkScroll}>Work</Button>
-            <Button onClick={handleAboutScroll}>About</Button>
+            <Button onClick={handleWorkScroll}>Projects</Button>
+            <Button onClick={handleAboutScroll}>Skills</Button>
             <Button onClick={handleContactScroll}>Contact</Button>
             {showResume && (
               <Button onClick={navigateToResume} classes="first:ml-1">

@@ -19,7 +19,7 @@ const Footer = ({ contactRef }) => {
               <Socials />
             </div>
             <div className="mt-10">
-              <h1>Email: tthanhtung92@gmail.com</h1>
+              <h1>Email: tthanhtung92.work@gmail.com</h1>
               <h1>Phone: 0986 950 563</h1>
             </div>
           </div>

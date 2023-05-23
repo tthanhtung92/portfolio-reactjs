@@ -1,6 +1,6 @@
 import React from "react";
 import { UseTheme } from "../contexts/ThemeContext";
-const ServiceCard = ({ name, description }) => {
+const SkillCard = ({ name, description }) => {
   const { theme } = UseTheme();
   return (
     <div
@@ -18,4 +18,4 @@ const ServiceCard = ({ name, description }) => {
   );
 };
 
-export default ServiceCard;
+export default SkillCard;

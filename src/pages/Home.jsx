@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { stagger } from "../animation/TextAnimation";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import ServiceCard from "../components/ServiceCard";
+import SkillCard from "../components/SkillCard";
 import WorkCard from "../components/WorkCard";
 import data from "../data/portfolio.json";
 import { useIsomorphicLayoutEffect } from "../utils/effect";
@@ -95,7 +95,7 @@ const Home = () => {
 
         {/* Work */}
         <section className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={workRef}>
-          <h1 className="text-2xl text-bold">Work.</h1>
+          <h1 className="text-2xl text-bold">Projects.</h1>
 
           <div className="mt-5 laptop:mt-5 grid grid-cols-1 tablet:grid-cols-2 gap-4">
             {data.projects.map((project) => (
@@ -110,15 +110,15 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Services */}
+        {/* Skills */}
         <section className="mt-10 laptop:mt-30 p-2 laptop:p-0">
-          <h1 className="text-2xl text-bold">Services.</h1>
+          <h1 className="text-2xl text-bold">Skills.</h1>
           <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6">
-            {data.services.map((service, index) => (
-              <ServiceCard
+            {data.skills.map((skills, index) => (
+              <SkillCard
                 key={index}
-                name={service.title}
-                description={service.description}
+                name={skills.title}
+                description={skills.description}
               />
             ))}
           </div>
